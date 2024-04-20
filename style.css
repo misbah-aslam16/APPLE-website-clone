@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    position: fixed;
+}
+
+.store{
+    background-color: #f9f9fc;
+    padding: 2%;
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.store a{
+    color: black;
+    text-decoration: none;
+}
+.store h6, .store p{
+    color: grey;
+    font-size:13px;
+    margin-left: 16px;
+}
+.search{
+    background-color: blueviolet;
+}
+.dropdown{
+    font-size: 13px;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+}
+.logo1{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+.card-body{
+    height: 17vh;
+    width: 100%;
+    font-size: small;
+}
+#video{
+    background-image: url("./video/WhatsApp\ Video\ 2024-04-13\ at\ 5.52.58\ AM.mp4");
+} 
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* margin-top: 50px; */
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; /* Ensure content appears above the video */
+    /* margin-top: 50px; */
+
+}
+
+.content1{
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+.b1{
+    border: #f9f9fc;
+    border-radius: 8%;
+    height: 50px;
+    width: 150px;
+}
+
+.b2{
+    border: solid #f9f9fc;
+    background-color: transparent;
+    color: #f9f9fc;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    margin-left: 30px;
+}
+
+.ip14Pro {
+    text-align: center;
+    /* background-image: url("./images/iphone14pro.jpg"); */
+    height: 69rem;
+    background-repeat: no-repeat;
+    background-size: auto 30rem;
+    height: 700px;
+    background-position: center;
+    background-color: rgb(250, 249, 249);
+    margin-top: 20px;
+}
+.h1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: bold ;
+}
+.h2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn1{
+    border: #2b2bf3;
+    background-color:  #2b2bf3 ;
+    color: aliceblue;
+    border-radius: 8%;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.btn2{
+    border: solid  #2b2bf3;
+    background-color: transparent;
+    color:  #2b2bf3;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.iphone{
+    background-color: black;
+    text-align: center;
+    /* background-image: url("./images/iphone14pro.jpg"); */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: auto 30rem;
+    background-position: center;
+    margin-top: 20px;
+}
+.ip1{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: bold ;
+}
+.ip2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btnn1{
+    border: solid  #2b2bf3;
+    background-color: transparent;
+    color:  #2b2bf3;
+    height: 50px;
+    width: 200px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.btnn2{
+    border: solid  #2b2bf3;
+    background-color: transparent;
+    color:  #2b2bf3;
+    height: 50px;
+    width: 200px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.iimg{
+    text-align: center;
+    background:transparent;
+}
+
+.cards{
+    display: flex;
+}
+.card-text1{
+    padding-top: 1rem;
+    padding-bottom: 17rem;
+}
+.card-body1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    height: 15rem;
+}
+.but{
+    border: solid white;
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.card2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.card-text{
+    color: red;
+}
+.content2{
+    margin-top: 70px;
+}
+.img-fluid{
+    text-align:center ;
+    padding: 15px;
+}
+#video{
+    border: 5px 0px 5px 10px;
+    background-image: url("./images/WhatsApp\ Video\ 2024-04-20\ at\ 3.34.50\ AM.mp4");
+    
+}
+.TandC {
+    width: 100%;
+    padding-left: 300px;
+    align-items: center;
+    list-style: decimal;
+    color: #808085;
+    font-size: 12px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+/*.hori {
+    width: 55%;
+    text-align: center;
+    margin-left: 25%;
+    color: #808085;
+}
+
+.tables {
+    display: flex;
+    /*margin-left: 250px;
+    font-size: 12px;
+    line-height: 30px;
+
+}
+
+.table2,
+.table3,
+.table4,
+.table5 {
+    margin-left: 60px;
+}
+
+.footer {
+    text-align: center;
+   /* margin-right: 19.5%;
+    font-size: 12px;
+    color: #808085;
+}
+
+.footer a {
+    color: #68A4E1;
+}
+
+.footer2 {
+    text-align: center;
+    margin-right: 1%;
+    font-size: 12px;
+    color: #808085;
+}
+.pP {
+    margin-left: 5%;
+}
+
+.US {
+    margin-left: 5%;
+}
+
+.foot {
+    line-height: 25px;
+}/*
+
+
