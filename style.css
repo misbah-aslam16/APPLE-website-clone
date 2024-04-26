@@ -74,7 +74,7 @@ body {
     color: white;
     text-align: center;
     z-index: 1; /* Ensure content appears above the video */
-    /* margin-top: 50px; */
+     margin-top: 60px;
 
 }
 
@@ -246,56 +246,3 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 50px;
     padding-top: 50px;
 }
-
-/*.hori {
-    width: 55%;
-    text-align: center;
-    margin-left: 25%;
-    color: #808085;
-}
-
-.tables {
-    display: flex;
-    /*margin-left: 250px;
-    font-size: 12px;
-    line-height: 30px;
-
-}
-
-.table2,
-.table3,
-.table4,
-.table5 {
-    margin-left: 60px;
-}
-
-.footer {
-    text-align: center;
-   /* margin-right: 19.5%;
-    font-size: 12px;
-    color: #808085;
-}
-
-.footer a {
-    color: #68A4E1;
-}
-
-.footer2 {
-    text-align: center;
-    margin-right: 1%;
-    font-size: 12px;
-    color: #808085;
-}
-.pP {
-    margin-left: 5%;
-}
-
-.US {
-    margin-left: 5%;
-}
-
-.foot {
-    line-height: 25px;
-}/*
-
-
